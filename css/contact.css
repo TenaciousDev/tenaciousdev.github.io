@@ -1,12 +1,8 @@
-#contact {
+#contact,
+#thanks {
   min-height: 75vh;
 }
 
-.contact {
-}
-
-.row.contact {
-}
-
-.form.contact {
+#thanks {
+  margin-top: 35vmin;
 }

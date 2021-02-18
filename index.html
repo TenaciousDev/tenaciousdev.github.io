@@ -349,12 +349,11 @@
         <div class="row justify-content-center">
           <div class="col-sm col-md-10 col-lg-8 col-xl-6">
             <form
-              action="https://formspree.io/f/mrgoebeg"
+              action="https://formsubmit.co/ee3aaf728b4fbe5d8be3fa0e83ddb5e9"
               method="POST"
               id="contact-form"
             >
               <div class="d-lg-flex form-row justify-content-center m-3">
-                <!-- <div class="col-lg-3 col-md-2 col-sm-0"></div> -->
                 <div class="col col-12 col-lg-6 pe-lg-1">
                   <input
                     type="text"
@@ -375,19 +374,17 @@
                 </div>
               </div>
               <div class="d-flex form-row justify-content-center m-3">
-                <!-- <div class="col-lg-3 col-md-2 col-sm-0"></div> -->
                 <div class="col-12">
                   <input
                     type="email"
                     class="form-control"
                     placeholder="Email"
-                    name="_replyto"
+                    name="email"
                     required
                   />
                 </div>
               </div>
               <div class="d-flex form-row justify-content-center m-3">
-                <!-- <div class="col-lg-3 col-md-2 col-sm-0"></div> -->
                 <div class="col-12">
                   <textarea
                     type="text"
@@ -401,14 +398,17 @@
               </div>
               <div>
                 <input type="hidden" name="_subject" value="New submission!" />
-                <input type="text" name="_gotcha" style="display: none" />
+                <input type="text" name="_honey" style="display: none" />
+                <input type="hidden" name="_captcha" value="false">
                 <input
                   type="hidden"
                   name="_next"
-                  value="http://www.google.com"
+                  value="http://127.0.0.1:5501/jsLibrary/Projects/portfoliov2/thanks.html"
+                  id="form-redirect"
                 />
                 <div class="container text-center my-4">
                   <button
+                  id="form-submit"
                     class="btn btn-outline-light"
                     type="submit"
                     value="Send"
@@ -436,6 +436,6 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <!-- JavaScript -->
+    <!-- Custom JavaScript -->
   </body>
 </html>
